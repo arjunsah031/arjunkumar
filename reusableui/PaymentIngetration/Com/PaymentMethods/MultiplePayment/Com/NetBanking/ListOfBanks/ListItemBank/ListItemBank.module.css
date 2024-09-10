@@ -1,0 +1,48 @@
+.Con {
+
+    width: 100%;   
+    
+}
+
+.Btn {
+
+    outline: none;
+    border: none;
+    font: inherit;
+    background: transparent;
+
+    cursor: pointer;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 8px 20px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.ImageCon {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ImageCon img {
+
+    height: 20px;
+}
+
+.BankNameCon {
+
+    padding-left: 15px;
+    
+}
+
+.BankNameCon span {
+
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+
+}

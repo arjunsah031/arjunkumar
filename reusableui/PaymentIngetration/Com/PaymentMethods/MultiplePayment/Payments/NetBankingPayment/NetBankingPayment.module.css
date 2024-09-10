@@ -1,0 +1,13 @@
+.ErrorCon {
+
+    width: 100%;
+    min-height: 20px;
+
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(248, 10, 10);
+    letter-spacing: 1px;
+
+    margin-bottom: 5px;
+    
+}

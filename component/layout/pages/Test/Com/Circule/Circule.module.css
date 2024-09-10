@@ -1,0 +1,85 @@
+.Con {
+
+    width: 100%;
+    height: 500px;
+
+    background-color: rgb(2, 2, 19);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.CirculeCon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+
+.Circle {
+
+    position: relative;
+}
+.CirculeFront {
+
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+
+    border-radius: 50%;
+    border: 5px solid rgba(12, 189, 12, 0.54);
+    border-top: 5px dashed green; 
+    border-bottom: 5px dashed green ;
+    border-left: 5px dashed green ;
+    border-right: 5px dashed green ;
+   
+    transition: all 1s linear;
+
+}
+
+.CirculeBack {
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    right: 20px;
+    opacity: 0.2;
+
+    border-radius: 50%;
+    border: 5px solid rgba(12, 189, 12, 0.54);
+    border-top: 5px dashed green; 
+    border-bottom: 5px dashed green ;
+    border-left: 5px dashed green ;
+    border-right: 5px dashed green ;
+   
+    transition: all 1s linear;
+
+}
+
+
+.ActionCon{
+
+    margin-top: 30px;
+    width: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ActionCon button {
+
+    background-color: white;
+    color: black;
+
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+}

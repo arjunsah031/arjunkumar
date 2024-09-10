@@ -1,0 +1,74 @@
+/* Main container */
+.Con {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid white;
+    margin-top: 30px;
+  }
+  
+  /* Button container */
+  .BtnCon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+  
+  /* Button styling */
+  .BtnCon button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .BtnCon button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  /* Active state for buttons */
+  .BtnCon button:active {
+    background-color: #388e3c;
+    transform: translateY(0);
+  }
+  
+  /* Food item container */
+  .FoodIteamCon {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .BtnCon button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  
+    .FoodIteamCon {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .FoodIteamCon {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  

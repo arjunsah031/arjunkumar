@@ -1,0 +1,43 @@
+.Con {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.First {
+
+    width: 180px;
+}
+
+.Second {
+
+    width: 90px;
+    
+}
+
+@media ( max-width: 350px ) {
+
+    .First {
+
+        width: 150px;
+    }
+    
+}
+
+
+@media ( max-width: 320px ) {
+
+    .First {
+
+        width: 130px;
+    }
+
+    .Second {
+
+        width: 80px;
+        
+    }
+    
+}

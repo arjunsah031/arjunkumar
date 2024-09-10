@@ -1,0 +1,161 @@
+.Con {
+   
+    width: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 3px solid rgb(65, 28, 28);
+    
+}
+.DivCon {
+
+    width: 300px;
+    height: 300px;
+    color: white;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.translate {
+
+    width: 190px;
+    height: 30px;
+
+    position: absolute;
+    transition: all 2s ease-in-out, opacity 3.4s ease-in-out;
+    
+}
+
+.translate:hover   {
+    
+    transform: translate(50px, 40px) rotateY(180deg) scaleY(3);
+    transform-origin: center;
+    background-color: red;
+    opacity: 0;
+}
+
+.BorderTransition {
+
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+       
+}
+.BorderTransition::before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, red , yellow);
+    transition: all 0.5s ease-in-out;
+
+}
+.BorderTransition:hover::before{
+
+    width: 100%;
+
+}
+.BorderTransition::after{
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, red , yellow);
+    transition: all 0.5s ease-in-out;
+
+
+}
+.BorderTransition:hover::after{
+    width: 100%;
+}
+.textSwiping  {
+
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+    transition: all 1s ease-in-out; 
+
+}
+
+.textSwiping::before{
+    content: 'Swipingtext';
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+  
+    transition: all 0.5s linear;
+
+}
+.textSwiping::after{
+    content: 'heloo arjun';
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;  
+    opacity: 0;
+   
+    transition: all 0.5s linear;
+
+}
+.textSwiping:hover:before {
+
+    top: -40px;
+    opacity: 0;
+}
+.textSwiping:hover:after{
+
+    bottom: 0;
+    opacity: 1;
+    color: black;
+}
+.Skew {
+
+    width: 190px;
+    height: 80px;
+    background-color: black; 
+    transform: translate3d( 45px, 45px, 0 ) skewY(10deg);
+    
+    transform-origin: center;
+
+}

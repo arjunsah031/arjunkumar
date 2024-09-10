@@ -1,0 +1,50 @@
+.Con {
+
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+        
+}
+
+.Li {
+
+    list-style: none;
+    padding: 5px 4px;
+    /* background-color: #968885d8; */
+    border-radius: 4px; 
+    margin-top: 13px;
+
+   
+}
+
+.navLink {
+
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;   
+    font-size: 13px; 
+    font-weight: 600;
+    
+    
+}
+
+.navLink:hover{ 
+   
+    border-bottom: 1px solid white;
+    color: whitesmoke;
+}
+
+@media( max-width : 750px ) {
+
+    .Con {
+
+        display: none;  
+    }
+
+}

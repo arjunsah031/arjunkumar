@@ -1,0 +1,19 @@
+.Con {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    width: 100%;  
+}
+.Con input {
+    font-size: 8px;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: red;
+}
+.Con label {
+    font-size: 14px;
+}

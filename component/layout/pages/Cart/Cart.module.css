@@ -1,0 +1,16 @@
+.Con {
+
+    width: 100%;
+    min-height: 700px;
+    padding-top: 120px;
+    background-color: black;
+    
+}
+.PaymentTittle {
+
+    background-color: black;
+    color: white;
+    padding: 10px 55px;
+    font-weight: 800;
+
+}

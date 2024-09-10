@@ -1,0 +1,54 @@
+.Con {
+
+    max-width: 600px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.Con label {
+
+    margin-bottom: 60px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 300; 
+}
+
+.InputCon {
+
+    width: 100%;
+    height: 50px;
+    margin-top: 13px;
+   
+}
+
+.InputCon input {
+
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+
+}  
+
+.BtnCon {
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.BtnCon button {
+
+    background-color: red;
+    padding: 6px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    
+}

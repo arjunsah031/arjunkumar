@@ -1,0 +1,65 @@
+.Con {
+
+    width: 100%;
+    padding: 10px 4px;  
+}
+
+.Ratingtittle {
+   
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.RatingCon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RatingCon button {
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.29);
+    border: 1px solid black;
+}
+
+.RatingCon button:hover {
+    background-color: white;
+
+}
+
+@media( max-width : 700px) {
+
+    .Con {
+       
+        padding: 0;
+        padding-top: 4px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .RatingCon {
+
+        flex-direction: column;
+    }
+    .RatingCon button {
+
+        width: 20px;
+        height: 20px;
+        border-radius: 0;
+        margin-bottom: 1px;
+    }
+    .Ratingtittle {
+        
+        font-size: 13px;
+        padding: 0;
+    }
+
+}

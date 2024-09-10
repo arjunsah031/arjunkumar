@@ -1,0 +1,144 @@
+.Con {
+
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(2, 2, 19);
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.CirculeCon {
+
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid rgb(2, 96, 2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.RootofebqCon {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+   
+}
+
+.RootofebqCon::before {
+
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    animation: Rootmotion 2s linear infinite ;
+}
+
+.CirculeCon span {
+
+    position: absolute;
+    font-size: 13px;
+    color: green;
+    font-weight: 800;
+}
+
+@keyframes Rootmotion {
+    
+    0% {
+
+        width:0px;
+        height: 100%;
+        
+    }
+    100% {
+
+        width: 100%;
+        height: 100%;
+
+    }
+}
+.SecCirculeCon {
+
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid rgb(2, 96, 2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SecRootofebqCon {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.MovableDiv {
+
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    animation: Rootmotion 2s linear infinite ; 
+    
+}
+.MovableDiv img {
+
+    width: 100px;
+    height: 50px;
+}
+.EbqText {
+
+    position: absolute;
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 4px;
+    color: green;
+
+    transform: translate(-50% -50%);
+    
+}
+
+@keyframes Rootmotion {
+    
+    0% {
+
+        width:0px;
+        height: 100%; 
+    }
+    
+    100% {
+
+        width: 100%;
+        height: 100%;
+    }
+}

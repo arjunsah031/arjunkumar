@@ -1,0 +1,64 @@
+.Con {
+
+    width: 100%;
+    margin-top: 10px;
+    
+    position: relative;
+}
+
+.SelectBoxCon {
+
+    outline: none;
+    border: none;
+    background: transparent;
+    font: inherit;
+
+    width: 100%;
+    height: 45px;
+    background-color: #c7c7c7;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    overflow: hidden;
+
+}
+
+.SelectBoxCon__Text {
+
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.SelectBoxCon__Icon {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.SelectBoxCon__Icon img {
+
+    height: 10px;
+
+}
+
+
+@media ( max-width: 500px ) {
+
+    .SelectBoxCon {
+
+        height: 50px;
+
+    }
+
+
+}

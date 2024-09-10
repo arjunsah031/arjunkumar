@@ -1,0 +1,130 @@
+/* Main container */
+.MainCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  /* About section container */
+  .AboutPhotoCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* About photo styling */
+  .AboutPhotoCon .Img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text styling */
+  .Text {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .Text div {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .Text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  /* Main content container */
+  .Con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Description container */
+  .desCon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Description heading */
+  .desCon h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Description text */
+  .desCon div {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Button container */
+  .btnCon {
+    margin-top: 20px;
+  }
+  
+  .btnCon button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .btnCon button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  /* Photo container */
+  .photoCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Profile photo styling */
+  .photoCon .Img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .Con {
+      flex-direction: column;
+    }
+  
+    .AboutPhotoCon .Img {
+      max-width: 100%;
+    }
+  
+    .photoCon .Img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  

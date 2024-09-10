@@ -1,0 +1,210 @@
+/* Container styling for the entire homepage */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* Animated Background */
+.animatedBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(45deg, #ff6f61, #0070f3, #34ebde, #ffeb3b);
+  background-size: 300% 300%;
+  animation: animateBg 15s ease infinite;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  color: white;
+ 
+}
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.heroText h1 {
+  font-size: 3rem;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.heroText p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  animation: fadeIn 2s ease-in-out;
+  transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+  background-color: #005bb5;
+}
+
+.heroImage {
+  max-width: 300px;
+  animation: imageSlideIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imageSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Skills Section */
+.skillsSection h2 {
+  text-align: center;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.skillsGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  padding-bottom: 30px;
+
+}
+
+.skillCard {
+  text-align: center;
+  transition: transform 0.3s;
+  color: white;
+}
+
+.skillCard:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projectsSection h2 {
+  text-align: center;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.projectsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projectCard {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #f3f3f3;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projectLink {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #0070f3;
+}
+.contactSection {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectLink:hover {
+  text-decoration: none;
+  color: #005bb5;
+}
+
+/* Contact Section */
+.contactSection h2 {
+  text-align: center;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contactSection p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.contactSection .ctaButton {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroImage {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.Con {
+
+    /* background-image: url('../../Assts/Aboutimage.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+    
+}
+
+.Img {
+    
+    width: 100%;
+    height: 100%;
+}
+

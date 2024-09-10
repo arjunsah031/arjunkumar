@@ -1,0 +1,17 @@
+.Con {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+
+    border-bottom: 1px solid rgb(30, 27, 27);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 4px;
+}
+.Con div{
+    width: 33.33%;
+}

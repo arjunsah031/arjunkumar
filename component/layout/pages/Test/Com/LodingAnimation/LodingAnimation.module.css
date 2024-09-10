@@ -1,0 +1,267 @@
+.Con {
+    width: 100%;
+    min-height: 400px;
+
+    background-color: rgb(1, 1, 10);
+    border-bottom: 4px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+.Container {
+
+    max-width: 600px;
+    width: 100%;
+    /* height: 102px; */
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 1px; 
+   
+}
+.EmptyCon {
+
+    /* width: 100px;
+    height: 100px; */
+    
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.EmptyCon:nth-of-type(1){
+   
+    animation:  fistCon  2.5s ease-in-out infinite; 
+    -webkit-animation:  fistCon  2.5s ease-in-out infinite; 
+    
+
+}
+
+@keyframes fistCon {
+
+    0% {
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    10% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    20% {
+
+        background-color: rgba(100, 131, 0, 0.2) ;
+
+    }
+    
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.25) ;
+
+    }
+}
+
+@-webkit-keyframes fistCon {
+
+    0% {
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    10% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    20% {
+
+        background-color: rgba(100, 131, 0, 0.2) ;
+
+    }
+    
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.25) ;
+
+    }
+}
+.EmptyCon:nth-of-type(2){
+
+    
+    animation:  sectCon  2.5s ease-in-out infinite;
+    -webkit-animation:  sectCon  2.5s ease-in-out infinite;
+     
+   
+}
+@keyframes sectCon {
+
+    0% {
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    
+   
+    30% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    40% {
+
+        background-color: rgba(100, 131, 0, 0.4) ;
+
+    }
+    
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.4) ;
+
+    }
+}
+
+@-webkit-keyframes sectCon {
+
+    0% {
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    
+   
+    30% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    40% {
+
+        background-color: rgba(100, 131, 0, 0.4) ;
+
+    }
+    
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.4) ;
+
+    }
+}
+.EmptyCon:nth-of-type(3){
+
+    
+    animation:  thirdCon  2.5s ease-in-out infinite; 
+    -webkit-animation:  thirdCon  2.5s ease-in-out infinite; 
+    
+}
+
+@keyframes thirdCon {
+    0% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+    }
+    
+   
+    50% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    60% {
+
+        background-color: rgba(100, 131, 0, 0.6) ;
+
+    }
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.6) ;
+
+    }
+}
+
+@-webkit-keyframes thirdCon {
+
+    0% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+    }
+    
+   
+    50% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    60% {
+
+        background-color: rgba(100, 131, 0, 0.6) ;
+
+    }
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.6) ;
+
+    }
+}
+.EmptyCon:nth-of-type(4){
+
+    animation:  forthCon  2.5s ease-in-out infinite; 
+    -webkit-animation:  forthCon  2.5s ease-in-out infinite; 
+}
+
+@keyframes forthCon {
+
+    0% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    
+    70% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    80% {
+
+        background-color: rgba(100, 131, 0, 0.8) ;
+
+    }
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.8) ;
+    }
+}
+
+@-webkit-keyframes forthCon {
+    0% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    
+    70% {
+
+        background-color: rgba(100, 131, 0, 0) ;
+
+    }
+    80% {
+
+        background-color: rgba(100, 131, 0, 0.8) ;
+
+    }
+    100% {
+
+        background-color: rgba(100, 131, 0, 0.8) ;
+    }
+}
+
+
+

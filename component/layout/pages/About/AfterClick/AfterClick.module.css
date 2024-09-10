@@ -1,0 +1,216 @@
+.Con {
+
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+  
+    padding-bottom: 30px;
+   
+
+
+}
+
+.TopicImg {
+
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+}
+.TopicImg .img {
+
+    width: 100%;
+    height: 100%;
+   
+   
+}
+.TopicImg h1 {
+
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    transform: translate(-50% -50%);
+   
+    z-index: 2;
+    
+    width: 100px;
+    font-size: 55px;
+    font-weight: 1300;
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+
+.imgDes {
+
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 1); 
+    padding-bottom: 30px;
+  
+    position: relative;
+
+}
+
+.imgDes div {
+
+    padding-top: 60px;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 240px;
+   
+}
+.imgDes div h3 {
+
+    padding-bottom: 30px;
+}
+.imgDes .img {
+
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+
+    position: absolute;
+    top: -70px;
+    right: 10%;
+    z-index: 3;
+
+}
+
+.firstDes,.secDes  {
+
+    width: 100%;
+    font-size: 15px;
+    padding: 50px 240px;
+}
+
+.CerQuaCon {
+
+    width: 100%;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 240px;
+    list-style: decimal;
+   
+
+   
+}
+.certifications, .Qualifications {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 14px;
+
+}
+
+@media( max-width : 1000px ) {
+    .TopicImg {
+
+        height: 400px;
+       
+    }
+    .TopicImg h1 {
+
+        right: 60%;
+
+
+    }
+    .imgDes div {
+        padding-left: 70px;
+    }
+    .imgDes .img {
+        width: 250px;
+        height: 250px;
+        right: 5%;
+        top: -10%;
+    }
+    .firstDes, .secDes {
+        padding: 30px 80px ;
+    }
+    .CerQuaCon  {
+        padding: 60px 80px;
+       
+       
+    }
+
+}
+
+@media( max-width : 750px ) {
+    .TopicImg {
+
+        height: 300px;
+    }
+    .imgDes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgDes div{
+        position: static;
+        padding: 10px 20px;
+        padding-top: 140px;
+        width: 100%;
+    }
+    .imgDes img {
+
+        background-color: transparent;
+        width: 100%;
+        padding: 0 120px;
+        
+        top: -120px;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+    
+    }
+    .firstDes, .secDes {
+        padding: 30px 20px ;
+        font-size: 13px;
+    }
+    .CerQuaCon  {
+        padding: 60px 20px;
+        font-size: 13px;
+       
+       
+    }
+    
+
+}
+
+@media( max-width : 450px ) {
+
+    .TopicImg h1 {
+
+        top: 10px;
+        left: 10%;
+    }
+
+    .imgDes {
+        height: 350px;
+        font-size: 13px;
+    }
+    
+    .imgDes .img {
+
+        padding: 0 40px;
+
+    }
+    .CerQuaCon {
+
+        flex-direction: column;
+
+    }
+    .certifications {
+        padding-bottom: 19px;
+    }
+   
+
+}

@@ -1,0 +1,37 @@
+.Con {
+
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    /* background-color: blue; */
+}
+
+.CIrcle {
+
+    /* width: 100px;
+    height: 100px; */
+   
+    /* border-radius: 0% 100% 100% 0% / 0% 100% 100% 0%; */
+    /* border: 20px solid white; */
+    /* border-left: none;
+
+    position: relative; */
+    
+}
+.Collum {
+
+    position: absolute;
+  
+    /* width: 20px;
+    height: 200px; */
+    background-color: white;
+    /* clip-path: polygon( 0% 0%, 50% 0%, 50% 95%, 100% 95%, 100% 100%, 0% 100%, 0% 0%); */
+    /* bottom: 0px;
+    right: 0px; */
+
+}

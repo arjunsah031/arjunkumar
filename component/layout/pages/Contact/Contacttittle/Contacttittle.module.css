@@ -1,0 +1,90 @@
+.Con {
+    width: 50%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+    
+}
+
+.Container {
+    max-width: 290px;
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-top: 40px;
+    padding-bottom: 60px;
+    line-height: 30px;
+   
+}
+.Container h1 {
+    padding-bottom: 9px;
+    color: gold;
+}
+
+.Adress {
+    line-height: 25px;
+}
+.PhoneNunmer {
+    line-height: 25px;
+
+}
+.media{ 
+    width: 200px;
+    padding-left: 0px;
+  
+
+}
+
+.CopyRight {
+    /* padding-left: 30px; */
+   
+}
+
+@media( max-width : 1000px) {
+   
+}
+
+@media( max-width : 600px) {
+    
+    .Con {
+        width: 100%;
+        
+        align-items: center;
+
+        padding-left: 0px;
+    }
+
+    .SosalMedia{
+        width: 100%;
+       
+      
+    }
+
+    .CopyRight {
+        padding-left: 0px;
+       
+    }
+
+    .Container {
+    
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 30px;
+       
+    }
+    
+}
+
+/* @media( max-width : 345px) {
+    .Con {
+        padding-left: 20px;
+    }
+} */

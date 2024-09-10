@@ -1,0 +1,61 @@
+.Con {
+
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+   
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding-top: 3px;
+    
+}
+
+.SearchCon {
+   
+    max-width: 900px;
+    height: 40px;
+    margin: 0 auto;
+  
+    border: 1px solid rgba(0, 0, 0, 0.422);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 19px;
+   
+}
+.SearchCon input {
+    width: 100%;
+    height: 100%;
+}
+.emplylistCon {
+
+    max-width: 900px;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    overflow-y: scroll;
+
+}
+
+.itemTittle {
+    max-width: 900px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    
+    padding: 0 5px;
+
+  
+}
+.itemTittle div{
+
+    width: 33.3%;
+    
+}

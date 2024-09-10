@@ -1,0 +1,109 @@
+/* Main container for the blog section */
+.Con {
+    width: 100%;
+    min-height: 700px;
+    background: linear-gradient(135deg, #0d0d0d 0%, #2c2c2c 100%);
+    color: #f0f0f0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Back button container */
+.BackbtnCon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Back button styling */
+.BackbtnCon button {
+    width: 80px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent;
+    color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.BackbtnCon button:hover {
+    color: #4caf50;
+    background-color: #333;
+    border-color: #4caf50;
+}
+
+/* Recent blog section */
+.Recentblog {
+    margin-top: 30px;
+    width: 100%;
+    padding: 40px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Recent blog header and button */
+.AllBlogCon {
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #4caf50;
+    margin-bottom: 20px;
+}
+
+.AllBlogCon div {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4caf50;
+}
+
+.AllBlogCon button {
+    background-color: #4caf50;
+    color: #0d0d0d;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.AllBlogCon button:hover {
+    background-color: #66bb6a;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 500px) {
+
+    .BackbtnCon button {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Recentblog {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .AllBlogCon div {
+        font-size: 16px;
+    }
+
+    .AllBlogCon button {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,191 @@
+.Con {
+
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    padding: 5px 60px;
+   
+    border: 0.5px solid rgba(0, 0, 0, 0.303);
+  
+}
+.Admine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 5px;
+    padding-top: 9px;
+
+
+}
+.Admine img{
+    padding-right: 5px;
+    width: 25px;
+    height: 20px;
+}
+
+.firsttittle {
+    padding: 40px 0;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+.firstDes {
+    padding: 30px 0;
+    padding-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.BlogIteamCon {
+
+    width: 100%;
+    height: 400px
+}
+.BlogIteamCon img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.secDes, .thirdDes {
+
+    padding: 40px 0;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.thirdDes {
+    padding-top: 0;
+}
+.secttittle {
+
+    padding: 40px 0;
+    padding-top: 0;
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+
+} 
+.Describepart {
+
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.tittleDesCon h3 {
+    
+    padding-bottom: 15px;
+}
+.ViewCommentCon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.554);
+    padding-top: 11px;
+    font-size: 13px;
+}
+.viewComment {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.View {
+   padding-right: 9px;
+}
+
+.LikeCon {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LikeCon img {
+    width: 25px;
+    height: 18px;
+    padding-left: 7px;
+    
+}
+
+@media( max-width : 1000px) {
+    .BlogIteamCon {
+        height: 300px;
+    }
+
+}
+
+@media( max-width : 750px) {
+    .Con {
+        width: 100%;
+
+        
+    }
+
+} 
+@media( max-width : 500px) {
+
+    .Con {
+
+        padding: 5px 20px;
+
+    }
+    .BlogIteamCon {
+        
+        height: 250px; 
+    }
+
+    .firsttittle, .secttittle {
+        font-size: 30px;
+        letter-spacing: 2px;
+        word-spacing: 0px;
+    }
+    
+
+}  
+
+/* 
+@media( max-width : 650px) {
+    .Con {
+        height:700px ;
+        flex-direction: column;
+    }
+    .BlogIteamCon {
+        width: 100%;
+        height: 50%;
+    }
+    .Describepart {
+        width: 100%;
+    }
+
+} 
+
+@media( max-width : 450px) {
+    .Con {
+        height: 500px;
+    }
+    
+    .BlogIteamCon {
+        width: 100%;
+        height: 60%;
+    }
+    .Describepart {
+        width: 100%;
+    }
+
+}  */

@@ -1,0 +1,195 @@
+.Con {
+    width : 100%;
+    border: 0.3px solid rgba(0, 0, 0, 0.381);
+    padding: 20px 60px;
+}
+
+.Con h1 {
+
+    border-bottom: 1px solid black ;
+    padding: 20px 0;
+    
+}
+.InputCon {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 40px;
+
+}
+.InputCon  input  {
+
+    height: 60px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.546);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 14px;
+
+}
+.InputCon img {
+    width: 48px;
+    height: 48px;
+}
+
+.CommentCon {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-top: 40px;
+    
+}
+.AdminCon{
+
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+.Comment {
+    width: 100%;
+    border: 0.2px solid rgba(0, 0, 0, 0.455);
+    min-height: 120px;
+
+}
+.Comment textarea{
+
+    width: 100%;
+    min-height: 80px; 
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+   
+}
+
+.addemojiCon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgIcon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+
+}
+.imgIcon img {
+
+    width: 30px;
+    height: 30px;
+}
+.AddimgCon {
+
+   display: none;
+   padding-left: 5px;
+}
+.AddimgCon img {
+
+    width: 30px;
+}
+
+.CommentControl {
+   
+    width: 180px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CommentControl button {
+
+    padding: 5px 15px;
+    padding-right: 9px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 13px;
+
+}
+.CommentCon button:hover {
+    border: 1px solid black;
+    color: rgb(8, 176, 242);
+    background-color: white;
+
+}
+
+.AddCommentCon {
+   
+    width: 100%;
+    height: 130px;
+    padding: 10px 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.AddCommentCon h2 {
+
+    font-size: 17px;  
+    padding: 7px 17px;
+    background-color: rgba(0, 0, 0, 0.372);
+}
+.AddCommentimgIcon {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+   
+}
+.AddCommentimgIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+@media( max-width : 600px) {
+
+    .Con {
+
+        padding: 10px 0;
+    }
+
+}
+
+@media( max-width : 500px) {
+
+    .Con {
+
+        padding: 10px 0;
+    }
+    .imgIcon {
+        display: none;
+    }
+    .AdminCon {
+        display: none;
+    }
+    .AddimgCon {
+        display: block;
+     }
+    
+} 
+
+@media( max-width : 350px) {
+
+    .CommentControl {
+
+        width: 160px;
+        padding: 0px 2px;
+    }
+
+}

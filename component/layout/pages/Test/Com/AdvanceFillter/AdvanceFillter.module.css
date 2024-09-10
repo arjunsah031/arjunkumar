@@ -1,0 +1,52 @@
+.Con {
+
+    width: 100%;
+    height: 550px;
+   
+}
+.SideNavCon {
+
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+    border-right: 1px solid rgba(0, 0, 0, 0.122); 
+    background-color: black;
+    color: white;
+}
+
+.ListItemCon {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border: 3px solid green;
+    overflow: auto;
+    padding-top: 10px;
+   
+}
+
+@media( max-width : 700px ) {
+
+    .ListItemCon {
+
+        width: 100%;
+    }
+    .SideNavCon {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+
+}

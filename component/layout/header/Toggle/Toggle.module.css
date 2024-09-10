@@ -1,0 +1,27 @@
+.Con {
+
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+    background-color: transparent;
+    border: none;
+    
+}
+.Span {
+    width: 50%;
+    height: 2px;
+    margin: 2px 0;
+    background-color: whitesmoke;
+    
+}
+
+@media( max-width : 750px ) {
+
+    .Con {
+        display: flex;
+    }
+}

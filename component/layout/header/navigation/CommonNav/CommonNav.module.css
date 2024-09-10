@@ -1,0 +1,109 @@
+.Con {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.ul {
+
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+
+.Li {
+
+    list-style: none;
+    padding: 5px 4px;
+    /* background-color: #968885d8; */
+    border-radius: 4px; 
+   
+}
+
+.Link {
+
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 8px 16px;
+    cursor: pointer;   
+    font-size: 13px; 
+    font-weight: 600;
+    
+    
+}
+
+.Active {
+
+    text-decoration: none;
+    color: rgb(187, 17, 17);
+    padding: 8px 16px;
+    cursor: pointer;   
+    font-size: 13px; 
+    font-weight: 600;
+    
+}
+
+.Link:hover{ 
+   
+    border-bottom: 2px solid rgba(255, 255, 255, 0.463);
+    color: whitesmoke;
+}
+
+.CartCon {
+    width: 60px;
+    height: 60px;
+   position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+   
+}
+.CartCon img {
+    width: 30px;
+    height: 30px;
+}
+.CartCon span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: rgba(245, 245, 245, 0.717);
+    border: 1px solid gold;
+    font-size: 11px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 7px;
+    top: 25px;
+}
+@media( max-width : 550px) {
+    .CartCon {
+        margin-top: 0;
+    }
+    .CartCon img {
+        width: 45px;
+        height: 45px;
+    }
+    .CartCon span {
+        right: 0px;
+    }
+}
+
+@media( max-width : 750px ) {
+
+    .Con {
+
+        display: none;  
+    }
+
+}

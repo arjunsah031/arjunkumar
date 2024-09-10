@@ -1,0 +1,111 @@
+.Con {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-left: 200px;
+    border-radius: 5px; 
+   
+}
+.Con div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    line-height: 35px;
+}
+
+
+
+.Name {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    word-spacing: 5px;
+   
+}
+.Des {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: oblique;
+}
+.Con img {
+    
+    width: 150px;
+    height: 120px;
+    
+}
+
+
+@media( max-width : 1300px) {
+
+    .Con {
+
+        padding-left: 120px;
+        
+
+    }
+   
+}
+
+@media( max-width : 1200px) {
+
+    .Con {
+
+        padding-left: 50px;
+        
+
+    }
+   
+}
+
+@media( max-width : 1100px) {
+
+    .Con {
+
+        padding-left: 0px;
+        
+
+    }
+    .Name {
+        font-size: 21px;
+    }
+   
+}
+
+@media( max-width : 1100px) {
+
+    .Con {
+
+        padding-left: 0px;
+        
+
+    }
+    .Name {
+        font-size: 16px;
+        font-size: 800;
+    }
+   
+}
+
+@media( max-width : 500px) {
+
+    .Con div{
+
+        padding-left: 0px;
+        line-height: 28px;
+        
+
+    }
+    .Name {
+        font-size: 19px;
+        font-size: 800;
+    }
+    .Des {
+        font-size: 12px;
+        font-weight: 800;
+    }
+   
+}

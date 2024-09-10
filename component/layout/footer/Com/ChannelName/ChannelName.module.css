@@ -1,0 +1,22 @@
+.Con {
+
+    max-width: 600px;
+    width: 100%;
+    padding: 5px;
+   
+}
+.Con h3  {
+
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+.span {
+    
+    display: block;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 400;
+
+}

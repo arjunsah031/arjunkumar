@@ -1,0 +1,80 @@
+/* Container for the slider */
+.Con {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Slider custom styling */
+  .MuiSlider-root {
+    color: #0070f3; /* Primary color for the slider */
+    height: 8px;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Track style */
+  .MuiSlider-track {
+    background-color: #0070f3;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Thumb style (the handle) */
+  .MuiSlider-thumb {
+    background-color: #fff;
+    border: 2px solid #0070f3;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect on the thumb */
+  .MuiSlider-thumb:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  
+  /* Active thumb (while dragging) */
+  .MuiSlider-thumb.Mui-active {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+  }
+  
+  /* Rail styling (the background track) */
+  .MuiSlider-rail {
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Tooltip for showing value */
+  .MuiSlider-valueLabel {
+    background-color: #0070f3;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for the container */
+  .Con:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 700px) {
+    .Con {
+      max-width: 100%;
+      padding: 8px;
+    }
+  }
+  

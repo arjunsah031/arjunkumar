@@ -1,0 +1,83 @@
+.Con {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(2, 2, 19);
+    padding-top: 40px;
+}
+.Form {
+    max-width: 600px;
+    height: 350px;
+    margin: 0 auto;
+   
+    background-color: #4d4c7d88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.InputCon {
+
+    width: 90%;
+    height: 110px; 
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   
+    
+
+
+}
+.InputCon label {
+    color:#05d1e7;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.Input {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    padding: 0 10px;
+    font-size: 15px;
+    color: white; 
+}
+
+.invalidInput {
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    padding: 0 10px;
+    font-size: 15px;
+    color: white; 
+    background-color: rgb(129, 10, 10);
+}
+.BtnCon {
+    width: 100%;
+    height: 40px;
+    
+    margin-top: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.Btn {
+
+    background-color: blue;
+    height: 100%;
+    padding: 0 60px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 100;
+
+}
+.Btn:disabled {
+    color: rgba(255, 0, 0, 0.548);
+    background-color:  rgba(0, 0, 255, 0.548) ;
+}

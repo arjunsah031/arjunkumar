@@ -1,0 +1,100 @@
+.Con {
+
+    width: 180px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    border: 0.5px solid rgba(0, 0, 0, 0.303);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+
+.firsttittle {
+    padding: 8px 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+}
+
+.BlogIteamCon {
+
+    width: 100%;
+    height: 120px;
+   
+    
+}
+.BlogIteamCon img {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ViewCommentCon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.554);
+    padding-top: 11px;
+    font-size: 13px;
+}
+.viewComment {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.View {
+
+   padding-right: 9px;
+}
+
+.LikeCon {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LikeCon img {
+    width: 25px;
+    height: 18px;
+    padding-left: 7px;
+    
+}
+
+@media( max-width : 500px) {
+    .Con {
+
+        width: 160px;
+        height: 220px;
+        margin-bottom: 5px;
+        padding: 3px;
+
+    }
+    .BlogIteamCon {
+        height: 90px;
+
+    }
+    .firsttittle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .ViewCommentCon {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+

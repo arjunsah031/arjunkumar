@@ -1,0 +1,21 @@
+.Con {
+
+    width: 100%;
+    padding-top: 10px;
+   
+    display: none;
+}
+
+
+@media ( max-width: 1100px ) {
+
+    .Con {
+
+        display: block;
+
+    }
+
+}
+
+
+

@@ -1,0 +1,119 @@
+.Con {
+
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(2, 2, 19);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+   
+}
+
+.CirculeCon {
+
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Circule {
+
+    /* width: 40px;
+    height: 40px; */
+    border-radius: 50%;
+    /* border: 3px solid white; */
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: relative;
+
+  
+  
+    
+}
+
+.CirculeBar {
+
+    position: absolute;
+   
+    /* width: 40px; */
+    /* height: 3px; */
+    background-color: white;
+    /* transform: rotate(45deg) translateX(40px); */
+
+}
+.Circule:hover {
+
+    background-color: rgba(255, 255, 255, 0.298);
+    
+}
+
+.backColor {
+    
+    background-color: red;
+}
+
+.TrangleCon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    /* width: 90px;
+    height: 80px; 
+    padding-bottom: 10px; */
+
+    
+}
+
+.Trangle {
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-top-right-radius: 40%;
+    
+    position: relative;
+    transform: rotate(-60deg) skewX(-30deg) scale(1, .866); 
+    -o-transform: rotate(-60deg) skewX(-30deg) scale(1, .866); 
+    -ms-transform: rotate(-60deg) skewX(-30deg) scale(1, .866); 
+    -moz-transform: rotate(-60deg) skewX(-30deg) scale(1, .866); 
+    -webkit-transform: rotate(-60deg) skewX(-30deg) scale(1, .866); 
+    
+}
+.Before,
+.After {
+
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    border-top-right-radius: inherit;
+    position: absolute;
+    transform-origin: center;
+}
+.Before{
+
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,0.707) translateY(-50%); 
+    -o-transform: rotate(-135deg) skewX(-45deg) scale(1.414,0.707) translateY(-50%); 
+    -ms-transform: rotate(-135deg) skewX(-45deg) scale(1.414,0.707) translateY(-50%);
+    -moz-transform: rotate(-135deg) skewX(-45deg) scale(1.414,0.707) translateY(-50%);
+    -webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414,0.707) translateY(-50%);
+}
+.After{
+  
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.424) translateX(50%);  
+    -o-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.424) translateX(50%);
+    -ms-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.424) translateX(50%);
+    -moz-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.424) translateX(50%);
+    -webkit-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.424) translateX(50%); 
+}

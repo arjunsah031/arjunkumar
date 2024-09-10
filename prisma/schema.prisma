@@ -1,0 +1,76 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  username String @unique
+  email    String @unique
+  password String
+  createdAt DateTime @default(now())
+}
+
+model Product {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  tittle    String
+  price     Float
+  des       String
+  duration  String
+}
+
+model Testuser {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  email    String   @unique
+  name     String
+  profile  Profile?
+}
+
+model Profile {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  bio      String
+  userId   String   @unique @db.ObjectId
+  user     Testuser     @relation(fields: [userId], references: [id])
+}
+
+model Onetomanyser {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  fname     String
+  lname     String
+  email     String   @unique
+  posts     Post[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+}
+
+model Post {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  title     String
+  content   String
+  authoremail String
+  author    Onetomanyser    @relation(fields: [authoremail], references: [email])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+}
+
+
+model Manytomanyuser {
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  name       String
+  email      String    @unique
+  projectIds String[] @db.ObjectId
+  projects   Project[] @relation(fields: [projectIds], references: [id])
+  
+}
+
+model Project {
+  id         String  @id @default(auto()) @map("_id") @db.ObjectId
+  title      String
+  users      Manytomanyuser[]  @relation(fields: [userIds], references: [id])
+  userIds    String[] @db.ObjectId
+ 
+}

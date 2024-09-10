@@ -1,0 +1,47 @@
+.Con {
+    width: 70%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.Btn {
+
+    transition: all 2s linear;
+    color: white;
+    border: 2px solid orange;
+    box-shadow: 2px saddlebrown ;  
+}
+.Btn:hover {
+
+    color: green;  
+}
+
+.SucessMessage {
+    color: green;
+    font-weight: 600;
+    letter-spacing: 2px;
+    animation: message 3s linear infinite;
+}
+
+@keyframes message {
+
+    0% {
+        font-size: 11px;
+    }
+    100% {
+        font-size: 19px;
+    }
+}
+
+
+
+@media( max-width : 600px) {
+    
+    .Con {
+        width: 100%;
+    }
+}

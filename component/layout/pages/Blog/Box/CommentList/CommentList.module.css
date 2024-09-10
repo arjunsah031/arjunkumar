@@ -1,0 +1,31 @@
+.Con {
+    width: 100%;
+    padding: 20px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.UserCon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.UserCon img {
+    width: 25px;
+    height: 25px;
+}
+.user {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.text {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 29px;
+    padding-top: 7px;
+}

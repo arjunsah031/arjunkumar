@@ -1,0 +1,122 @@
+.Con {
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    background-color: rgba(39, 39, 39, 0.8);
+
+    padding: 0px 20px;
+    padding-bottom: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+.CartCon {
+
+    height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.img {
+
+    height: 20px;
+
+    width: 20px;
+}
+
+.CartCon span {
+
+   
+    color: #c7c7c7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+
+
+.RupeesCon {
+
+    height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.RupeesCon  {
+
+    height: 25px;
+}
+
+.RupeesCon span {
+
+    color: #c7c7c7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+
+@media ( max-width: 350px ) {
+
+        
+    .img {
+
+        height: 15px;
+        width: 15px;
+    }
+
+    .CartCon span {
+
+        font-size: 12px;
+    }
+
+   
+        
+    .RupeesCon .img {
+
+        height: 20px;
+    }
+
+    .RupeesCon span {
+
+        font-size: 14px;
+    }
+
+    
+}
+
+
+@media ( max-width: 300px ) {
+
+        
+    .CartCon img {
+
+        height: 20px;
+    } 
+        
+    .RupeesCon img {
+
+        height: 18px;
+    }
+
+    .RupeesCon span {
+
+        font-size: 12px;
+    }
+
+    
+}
+
+

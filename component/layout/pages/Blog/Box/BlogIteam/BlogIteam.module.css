@@ -1,0 +1,128 @@
+.Con {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 5px;
+   
+    border: 0.5px solid rgba(0, 0, 0, 0.303);
+  
+}
+.Admine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 5px;
+    padding  : 9px 0;
+
+
+}
+.Admine img{
+    padding-right: 5px;
+    width: 25px;
+    height: 20px;
+}
+.BlogIteamCon {
+
+    width: 50%;
+    height: 100%;
+}
+.BlogIteamCon img {
+    width: 100%;
+    height: 100%;
+}
+.Describepart {
+
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.tittleDesCon h3 {
+    
+   
+    color: rgb(7, 128, 176);
+    border-bottom: 3px solid rgb(7, 128, 176);
+}
+.tittleDesCon div {
+    padding-top: 20px;
+}
+.ViewCommentCon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.554);
+    padding-top: 11px;
+    font-size: 13px;
+
+}
+.viewComment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.View {
+   padding-right: 9px;
+}
+
+.LikeCon {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LikeCon img {
+    width: 25px;
+    height: 18px;
+    padding-left: 7px;
+    
+}
+
+@media( max-width : 750px) {
+    .Con {
+        height: 300px;
+    }
+
+} 
+
+@media( max-width : 650px) {
+    .Con {
+        height:700px ;
+        flex-direction: column;
+    }
+    .BlogIteamCon {
+        width: 100%;
+        height: 50%;
+    }
+    .Describepart {
+        width: 100%;
+    }
+
+} 
+
+@media( max-width : 450px) {
+    .Con {
+        height: 500px;
+    }
+    
+    .BlogIteamCon {
+        width: 100%;
+        height: 60%;
+    }
+    .Describepart {
+        width: 100%;
+    }
+
+} 

@@ -1,0 +1,27 @@
+.Con {
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(2, 2, 19);
+    padding-top: 100px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+.Btext {
+
+   
+    background-color: green;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+
+}

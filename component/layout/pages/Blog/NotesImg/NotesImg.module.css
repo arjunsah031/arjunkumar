@@ -1,0 +1,42 @@
+.Con {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Con img {
+    width: 100%;
+    height: 100%;
+}
+.Con div{ 
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    width: 210px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.73);
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+}
+
+@media( max-width : 850px) {
+    .Con {
+        height: 500px;
+    }
+}
+
+@media( max-width : 450px) {
+    
+    .Con {
+        height: 400px;
+    }
+    .Con div {
+        left: 10%;
+        font-size: 35px;
+    }
+} 

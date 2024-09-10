@@ -1,0 +1,157 @@
+.Con {
+    
+    width: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.438);
+    
+}
+.DivCon {
+
+    width: 300px;
+    height: 300px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: DivConAnimation 10s linear infinite;
+  
+}
+@keyframes DivConAnimation {
+
+    0% {
+
+        filter: hue-rotate(0deg);
+
+    }
+    100%{
+
+        filter: hue-rotate(360deg);
+
+    } 
+
+}
+.Circle {
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    border:  3px solid white;
+    border-top: 3px solid red;
+
+
+    /* animation-name: circule;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running; */
+
+    animation: circule 3s linear infinite normal running  ;
+    
+}
+
+.Circle:hover {
+
+    animation-play-state: paused;
+
+}
+
+@keyframes circule {
+    0% {
+
+        transform: rotate(0deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+
+    }
+} 
+
+
+.Loder {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-top: 40px;
+    
+ 
+}
+
+
+.Loder span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    transform: rotate(calc( 18deg * var(--i)));
+    
+}
+.Loder span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: green;
+    box-shadow: 0 0 10px green,
+                0 0 20px green,
+                0 0 40px green,
+                0 0 60px green,
+                0 0 80px green,
+                0 0 100px green;
+    animation:  spananimation 2s linear infinite; 
+    animation-delay: calc(0.1s * var(--i));           
+
+}
+
+@keyframes spananimation {
+
+    0% {
+        transform: scale(1);
+
+    }
+    80%,100% {
+
+        transform: scale(0);
+
+    }
+
+}
+.scale {
+
+    width: 190px;
+    height: 80px;
+    background-color: black; 
+    transform: scale3d( 1.3, 1.7, 120 );
+    transform-origin: 0 0;
+
+}
+.Skew {
+
+    width: 190px;
+    height: 80px;
+    background-color: black; 
+    transform: translate3d( 45px, 45px, 0 ) skewY(10deg);
+    
+    transform-origin: center;
+
+}

@@ -1,0 +1,63 @@
+/* Main wrapper for the food card */
+.CardRaping {
+    width: 250px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Inner container for content */
+  .Con {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Styling for the food name */
+  .Con div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Food image styling */
+  .Con img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Styling for the food type */
+  .Con div:last-child {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Hover effect for card */
+  .CardRaping:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Hover effect for the image */
+  .CardRaping:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 600px) {
+    .CardRaping {
+      width: 100%;
+    }
+  }
+  

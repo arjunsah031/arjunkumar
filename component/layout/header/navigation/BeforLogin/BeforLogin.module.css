@@ -1,0 +1,35 @@
+.Con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+.LoginSignupCon {
+    
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 8px;
+    /* background-color: rebeccapurple; */
+    padding-top: 6px;
+
+}
+
+.LoginSignupBtn {
+    font-size: 16px;
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
+@media( max-width : 750px) {
+    .Con {
+        display: none;
+    }
+}

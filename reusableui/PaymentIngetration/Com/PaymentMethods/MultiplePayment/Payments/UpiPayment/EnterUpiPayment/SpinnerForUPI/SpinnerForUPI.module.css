@@ -1,0 +1,132 @@
+
+.ContentConn {
+
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    
+}
+
+
+.BoxCon {
+
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+
+.First_First {
+
+    color: #c7c7c7;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.First_Second {
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+@media ( max-width: 800px ) {
+
+    .First {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .First_First {
+        font-size: 18px;
+    }
+
+    .First_Second {
+        font-size: 12px;
+        padding-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media ( max-width: 700px ) {
+    .BoxCon {
+
+        width: 100%;
+    }
+}
+
+.Second {
+
+    margin-top: 10px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.Secon__First {
+
+    background-color: #4e4e4e;
+    padding: 10px 15px;
+}
+
+.Secon__First .StepCon {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.Secon__First .StepCon span {
+
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.ConLoading {
+    padding-left: 20px;
+}
+
+.Loader {
+    border: 2px solid #000;
+    border-radius: 50%;
+    border-top: 3px solid #fff;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 0.6s linear infinite; /* Safari */
+    animation: spin 0.6s linear infinite;
+}
+  
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.DoNotCutPageText {
+
+    background-color: #f78080;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.DoNotCutPageText span {
+
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+
+

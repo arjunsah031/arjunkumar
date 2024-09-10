@@ -1,0 +1,85 @@
+.Con {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 60px;
+
+}
+
+.AddediteamCon {
+
+    width: 50%;
+    padding-right: 20px;
+    color: whitesmoke; 
+
+}
+
+.CheckoutBtnCon {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddediteamCon button {
+
+    color: rgb(165, 14, 14);
+    background-color: white;
+    width: 100%;
+
+}
+
+@media( max-width : 600px) {
+
+    .Con {
+
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    
+    }
+    .AddediteamCon {
+
+        width: 100%;
+        padding-right: 0px;
+          
+    
+    }
+
+    
+    .CheckoutBtnCon {
+        width: 100%;
+        
+    }
+
+}
+
+@media( max-width : 900px) {
+
+    /* .Con {
+
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    
+    }
+    .AddediteamCon {
+
+        width: 100%;
+        padding-right: 0px;
+          
+    
+    }
+
+    
+    .CheckoutBtnCon {
+        width: 100%;
+        
+    } */
+
+}

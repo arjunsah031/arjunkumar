@@ -1,0 +1,45 @@
+/* Container for the buttons */
+.Con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px;
+}
+
+/* Styling for the buttons */
+.Btn {
+    
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 10px 0; /* Add spacing between buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover effect for buttons */
+.Btn:hover {
+    background-color: rgba(255, 255, 255, 0.272); /* Darker blue on hover */
+}
+
+/* Active button effect on click */
+.Btn:active {
+    transform: scale(0.98); /* Slight scale down on click */
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+    .Btn {
+        width: 180px; /* Adjust width for smaller screens */
+        font-size: 14px;
+    }
+}
