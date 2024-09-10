@@ -12,7 +12,7 @@ import { OPNE_CLOSE_SIGNUP_LOGIN } from "@/reusableui/MyCustumConstat/MyCustumCo
 
 
 async function createUser(username, email, password) {
-    const response = await fetch('/api/auth/signup', {
+    const response = await fetch('/api/signup', {
       method: 'POST',
       body: JSON.stringify({ username, email, password }),
       headers: {
