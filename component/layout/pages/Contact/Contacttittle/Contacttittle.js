@@ -11,16 +11,16 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.Adress}>
 
-                    <div>Sector 49 Noida Utarpradesh</div>
+                    <div>Kathmandu, Bagmati, Nepal</div>
 
-                    <div> 5th floor Gautam budh nagar  </div>
+                    <div> 4th floor kalanki vatvateni near  </div>
 
                 </div> 
 
                 <div className={ CssStyle.PhoneNunmer } >
 
-                    <div>PHN: 7619517427 </div>
-                    <div>PHN: 7619517427 </div>
+                    <div>Ph: 9709475100 </div>
+                    <div>Mob: 9709475100 </div>
 
                 </div>
 
