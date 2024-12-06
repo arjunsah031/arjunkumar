@@ -30,7 +30,7 @@
   /* Text styling */
   .Text {
     margin-top: 20px;
-    color: #333;
+    color: whitesmoke;
   }
   
   .Text div {
@@ -62,14 +62,14 @@
   /* Description heading */
   .desCon h1 {
     font-size: 28px;
-    color: #333;
+    color: whitesmoke;
     margin-bottom: 20px;
   }
   
   /* Description text */
   .desCon div {
     font-size: 16px;
-    color: #555;
+    color: whitesmoke;
     line-height: 1.6;
     margin-bottom: 20px;
   }

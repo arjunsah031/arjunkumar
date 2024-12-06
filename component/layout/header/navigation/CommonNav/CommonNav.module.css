@@ -40,7 +40,7 @@
 .Active {
 
     text-decoration: none;
-    color: rgb(187, 17, 17);
+    color: rgba(245, 245, 245, 0.692);
     padding: 8px 16px;
     cursor: pointer;   
     font-size: 13px; 

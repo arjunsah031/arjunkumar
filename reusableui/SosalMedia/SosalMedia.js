@@ -3,7 +3,7 @@ import CssStyle from './SosalMedia.module.css';
 
 import { BsFacebook } from 'react-icons/bs';
 import { ImWhatsapp } from 'react-icons/im';
-import { TbBrandYoutube } from 'react-icons/tb';
+import { FaLinkedinIn } from "react-icons/fa";
 import { CgInstagram } from 'react-icons/cg';
 
 const SosalMedia = (props) => {
@@ -21,11 +21,11 @@ const SosalMedia = (props) => {
         <div className={`${CssStyle.Con} ${props.className}`}>
             <a
                 className={CssStyle.ImgCon}
-                href='https://youtu.be/LQKahQz0lbc'
+                href='https://www.linkedin.com/in/arjun-sah-a3a306340/'
                 target='_blank'
                 rel='noopener noreferrer'
             >
-                <TbBrandYoutube style={IconStyle} />
+                <FaLinkedinIn style={IconStyle} />
             </a>
 
             <a

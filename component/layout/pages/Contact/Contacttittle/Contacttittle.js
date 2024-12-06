@@ -26,7 +26,7 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.SosalMedia}>
 
-                    <div> Gmail : saharjun031@gmail.com</div>
+                    <div> Gmail : saharjun2105@gmail.com</div>
                     <div className={ CssStyle.media} > <SosalMedia
 
                         color = 'white'
@@ -38,7 +38,7 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.CopyRight } >
 
-                    <div>© 2023 by Personal Life Coach. </div>
+                    <div>© 2024 by Personal Life Coach. </div>
                     <div >Proudly created with Wix.com  </div>
 
                 </div>

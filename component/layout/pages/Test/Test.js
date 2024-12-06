@@ -22,10 +22,14 @@ const Test = () => {
    
 
     return  <main className={ CssStyle.Con }>
+        <LodingAnimation/>
+        <Circule/>
+        <AdvanceFillter/>
+        <Animation/>
 
-                <AdvanceFillter/>
+               
                 <Foodselction/>
-                <LodingAnimation/>
+                
 
                  <Ebqanimation4/>
 
@@ -43,12 +47,12 @@ const Test = () => {
 
                 <ChartCircle/>
 
-                <Animation/>
+                
                 <Display/>
 
                 <VerticalSqure/>
 
-                <Circule/>
+                
 
                 <DropDown/>          
        

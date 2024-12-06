@@ -11,7 +11,15 @@ export default function Logo() {
 
     {/* <div className={ CssStyle.Des}> Personal Notebook </div> */}
 
-    <Image className={ CssStyle.Logoimg } src="/logo1.png" width={200} height={200} alt="logos"/>
+    <Link href="/" className={CssStyle.LogoimgLink}>
+        <Image
+          className={CssStyle.Logoimg}
+          src="/logo1.png"
+          width={200}
+          height={200}
+          alt="logos"
+        />
+      </Link> 
     
 
 

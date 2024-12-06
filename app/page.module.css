@@ -39,7 +39,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 50px;
-  color: white;
+  color: rgba(255, 255, 255, 0.918);
  
 }
 .profileImage {
@@ -181,14 +181,14 @@
 /* Contact Section */
 .contactSection h2 {
   text-align: center;
-  color: white;
+  color: rgba(255, 166, 0, 0.863);
   animation: fadeIn 1s ease-in-out;
 }
 
 .contactSection p {
   text-align: center;
   margin-bottom: 20px;
-  color: #f4f4f4;
+  color: #f4f4f477;
   animation: fadeIn 1.2s ease-in-out;
 }
 
