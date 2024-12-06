@@ -13,7 +13,7 @@
 /* Styling for the buttons */
 .Btn {
     
-    color: white;
+    color: goldenrod;
     border: none;
     padding: 12px 24px;
     font-size: 16px;
@@ -28,7 +28,7 @@
 
 /* Hover effect for buttons */
 .Btn:hover {
-    background-color: rgba(255, 255, 255, 0.272); /* Darker blue on hover */
+    background-color: rgba(9, 162, 233, 0.959); /* Darker blue on hover */
 }
 
 /* Active button effect on click */
